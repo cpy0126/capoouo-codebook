@@ -37,9 +37,9 @@ struct suffix_array {
   }
   void make_fa(int n){
   	for(int i=1;i<=n;++i) fa[0][i] = he[i-1];
-  	for(int j=1;j<20;++J)
-  		for(int i=1;i+(1<<j-1)<=n;++i)
-  			fa[j][i] = min(fa[j-1][i],fa[j-1][i+(1<<j-1)]);
+  	for(int j=1;j<20;++j)
+  		for(int i=1;i+(1<<j)-1<=n;++i)
+  			fa[j][i] = min(fa[j-1][i],fa[j-1][i+(1<<(j-1))]);
   }
   inline int ask(int x,int y){
   	int k = Log[y-x+1];
@@ -50,11 +50,12 @@ struct suffix_array {
   	return ask(x+2,y+1);
   }
   int sa[MAXN], ra[MAXN], he[MAXN],fa[20][MAXN],Log[MAXN];
-  void build(string s) {
-    FILL(sa, 0), FILL(ra, 0), FILL(he, 0);
-    FILL(box, 0), FILL(tp, 0), m = 256;
+  void build(const string &s) {
+  	int n = sz(s);
+    fill_n(sa, n, 0), fill_n(ra, n, 0), fill_n(he, n, 0);
+    fill_n(box, n, 0), fill_n(tp, n, 0), m = 256;
     Log[0] = Log[1] = 0;
-    for(int i=2;i<=s.size();++i) Log[i] = Log[i>>1]+1;
+    for(int i=2;i<=n;++i) Log[i] = Log[i>>1]+1;
     make_sa(s, sz(s));
     make_he(s, sz(s));
     make_fa(sz(s));

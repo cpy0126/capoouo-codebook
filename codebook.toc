@@ -31,22 +31,21 @@
 \contentsline {subsection}{\numberline {4.5}SW-mincut}{8}{}%
 \contentsline {subsection}{\numberline {4.6}BoundedFlow(Dinic*)}{9}{}%
 \contentsline {subsection}{\numberline {4.7}Gomory Hu tree}{9}{}%
-\contentsline {subsection}{\numberline {4.8}isap}{9}{}%
-\contentsline {section}{\numberline {5}String}{10}{}%
-\contentsline {subsection}{\numberline {5.1}KMP}{10}{}%
-\contentsline {subsection}{\numberline {5.2}Z-value}{10}{}%
+\contentsline {section}{\numberline {5}String}{9}{}%
+\contentsline {subsection}{\numberline {5.1}KMP}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Z-value}{9}{}%
 \contentsline {subsection}{\numberline {5.3}Manacher*}{10}{}%
 \contentsline {subsection}{\numberline {5.4}Suffix Array}{10}{}%
-\contentsline {subsection}{\numberline {5.5}SAIS*}{11}{}%
+\contentsline {subsection}{\numberline {5.5}SAIS*}{10}{}%
 \contentsline {subsection}{\numberline {5.6}Aho-Corasick Automatan}{11}{}%
 \contentsline {subsection}{\numberline {5.7}Smallest Rotation}{11}{}%
 \contentsline {subsection}{\numberline {5.8}De Bruijn sequence*}{11}{}%
-\contentsline {subsection}{\numberline {5.9}SAM}{12}{}%
+\contentsline {subsection}{\numberline {5.9}SAM}{11}{}%
 \contentsline {subsection}{\numberline {5.10}PalTree}{12}{}%
 \contentsline {subsection}{\numberline {5.11}cyclicLCS}{12}{}%
-\contentsline {section}{\numberline {6}Math}{13}{}%
-\contentsline {subsection}{\numberline {6.1}ax+by=gcd*}{13}{}%
-\contentsline {subsection}{\numberline {6.2}floor and ceil}{13}{}%
+\contentsline {section}{\numberline {6}Math}{12}{}%
+\contentsline {subsection}{\numberline {6.1}ax+by=gcd*}{12}{}%
+\contentsline {subsection}{\numberline {6.2}floor and ceil}{12}{}%
 \contentsline {subsection}{\numberline {6.3}floor sum*}{13}{}%
 \contentsline {subsection}{\numberline {6.4}Miller Rabin*}{13}{}%
 \contentsline {subsection}{\numberline {6.5}Big number}{13}{}%
@@ -57,7 +56,7 @@
 \contentsline {subsection}{\numberline {6.10}Schreier-Sims Algorithm*}{15}{}%
 \contentsline {subsection}{\numberline {6.11}chineseRemainder}{15}{}%
 \contentsline {subsection}{\numberline {6.12}QuadraticResidue}{15}{}%
-\contentsline {subsection}{\numberline {6.13}PiCount}{16}{}%
+\contentsline {subsection}{\numberline {6.13}PiCount}{15}{}%
 \contentsline {subsection}{\numberline {6.14}Primes}{16}{}%
 \contentsline {subsection}{\numberline {6.15}Theorem}{16}{}%
 \contentsline {subsubsection}{\numberline {6.15.1}Kirchhoff's Theorem}{16}{}%
@@ -65,34 +64,34 @@
 \contentsline {subsubsection}{\numberline {6.15.3}Cayley's Formula}{16}{}%
 \contentsline {section}{\numberline {7}Polynomial}{16}{}%
 \contentsline {subsection}{\numberline {7.1}Fast Fourier Transform}{16}{}%
-\contentsline {subsection}{\numberline {7.2}Number Theory Transform}{17}{}%
+\contentsline {subsection}{\numberline {7.2}Number Theory Transform}{16}{}%
 \contentsline {subsection}{\numberline {7.3}Fast Walsh Transform*}{17}{}%
 \contentsline {subsection}{\numberline {7.4}Polynomial Operation}{17}{}%
 \contentsline {section}{\numberline {8}Geometry}{18}{}%
 \contentsline {subsection}{\numberline {8.1}Default Code}{18}{}%
-\contentsline {subsection}{\numberline {8.2}Convex hull*}{19}{}%
-\contentsline {subsection}{\numberline {8.3}External bisector}{19}{}%
-\contentsline {subsection}{\numberline {8.4}Heart}{19}{}%
+\contentsline {subsection}{\numberline {8.2}Convex hull*}{18}{}%
+\contentsline {subsection}{\numberline {8.3}External bisector}{18}{}%
+\contentsline {subsection}{\numberline {8.4}Heart}{18}{}%
 \contentsline {subsection}{\numberline {8.5}Minimum Circle Cover*}{19}{}%
 \contentsline {subsection}{\numberline {8.6}Polar Angle Sort*}{19}{}%
 \contentsline {subsection}{\numberline {8.7}Intersection of two circles*}{19}{}%
 \contentsline {subsection}{\numberline {8.8}Intersection of polygon and circle}{19}{}%
-\contentsline {subsection}{\numberline {8.9}Intersection of line and circle}{20}{}%
-\contentsline {subsection}{\numberline {8.10}point in circle}{20}{}%
-\contentsline {subsection}{\numberline {8.11}Half plane intersection}{20}{}%
+\contentsline {subsection}{\numberline {8.9}Intersection of line and circle}{19}{}%
+\contentsline {subsection}{\numberline {8.10}point in circle}{19}{}%
+\contentsline {subsection}{\numberline {8.11}Half plane intersection}{19}{}%
 \contentsline {subsection}{\numberline {8.12}CircleCover*}{20}{}%
-\contentsline {subsection}{\numberline {8.13}3Dpoint*}{21}{}%
-\contentsline {subsection}{\numberline {8.14}Convexhull3D*}{21}{}%
-\contentsline {subsection}{\numberline {8.15}DelaunayTriangulation*}{22}{}%
+\contentsline {subsection}{\numberline {8.13}3Dpoint*}{20}{}%
+\contentsline {subsection}{\numberline {8.14}Convexhull3D*}{20}{}%
+\contentsline {subsection}{\numberline {8.15}DelaunayTriangulation*}{21}{}%
 \contentsline {subsection}{\numberline {8.16}Triangulation Vonoroi*}{22}{}%
-\contentsline {subsection}{\numberline {8.17}Tangent line of two circles}{23}{}%
-\contentsline {subsection}{\numberline {8.18}minMaxEnclosingRectangle}{23}{}%
+\contentsline {subsection}{\numberline {8.17}Tangent line of two circles}{22}{}%
+\contentsline {subsection}{\numberline {8.18}minMaxEnclosingRectangle}{22}{}%
 \contentsline {subsection}{\numberline {8.19}minDistOfTwoConvex}{23}{}%
 \contentsline {subsection}{\numberline {8.20}Minkowski Sum*}{23}{}%
 \contentsline {subsection}{\numberline {8.21}RotatingSweepLine}{23}{}%
-\contentsline {subsection}{\numberline {8.22}Simpson}{24}{}%
-\contentsline {section}{\numberline {9}Else}{24}{}%
-\contentsline {subsection}{\numberline {9.1}Mo's Alogrithm(With modification)}{24}{}%
+\contentsline {subsection}{\numberline {8.22}Simpson}{23}{}%
+\contentsline {section}{\numberline {9}Else}{23}{}%
+\contentsline {subsection}{\numberline {9.1}Mo's Alogrithm(With modification)}{23}{}%
 \contentsline {subsection}{\numberline {9.2}Mo's Alogrithm On Tree}{24}{}%
 \contentsline {subsection}{\numberline {9.3}DynamicConvexTrick*}{24}{}%
-\contentsline {subsection}{\numberline {9.4}Matroid Intersection}{25}{}%
+\contentsline {subsection}{\numberline {9.4}Matroid Intersection}{24}{}%

@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.1}BCC Vertex*}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Bridge*}{2}{}%
 \contentsline {subsection}{\numberline {2.3}2SAT (SCC)*}{2}{}%
-\contentsline {subsection}{\numberline {2.4}MinimumMeanCycle*}{2}{}%
+\contentsline {subsection}{\numberline {2.4}MinimumMeanCycle*}{3}{}%
 \contentsline {subsection}{\numberline {2.5}Virtual Tree*}{3}{}%
 \contentsline {subsection}{\numberline {2.6}Maximum Clique Dyn*}{3}{}%
 \contentsline {subsection}{\numberline {2.7}Minimum Steiner Tree*}{3}{}%
@@ -17,12 +17,12 @@
 \contentsline {subsection}{\numberline {2.11}Minimum Clique Cover*}{5}{}%
 \contentsline {subsection}{\numberline {2.12}NumberofMaximalClique*}{5}{}%
 \contentsline {subsection}{\numberline {2.13}Dijkstra}{5}{}%
-\contentsline {subsection}{\numberline {2.14}Theory}{5}{}%
+\contentsline {subsection}{\numberline {2.14}Theory}{6}{}%
 \contentsline {section}{\numberline {3}Data Structure}{6}{}%
 \contentsline {subsection}{\numberline {3.1}Leftist Tree}{6}{}%
 \contentsline {subsection}{\numberline {3.2}Heavy light Decomposition}{6}{}%
 \contentsline {subsection}{\numberline {3.3}Centroid Decomposition*}{6}{}%
-\contentsline {subsection}{\numberline {3.4}Treap}{6}{}%
+\contentsline {subsection}{\numberline {3.4}Treap}{7}{}%
 \contentsline {subsection}{\numberline {3.5}RangeOperations}{7}{}%
 \contentsline {section}{\numberline {4}Flow/Matching}{8}{}%
 \contentsline {subsection}{\numberline {4.1}Kuhn Munkres}{8}{}%
@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {4.7}Gomory Hu tree}{10}{}%
 \contentsline {section}{\numberline {5}String}{10}{}%
 \contentsline {subsection}{\numberline {5.1}KMP}{10}{}%
-\contentsline {subsection}{\numberline {5.2}Z-value}{10}{}%
+\contentsline {subsection}{\numberline {5.2}Z-value}{11}{}%
 \contentsline {subsection}{\numberline {5.3}Manacher*}{11}{}%
 \contentsline {subsection}{\numberline {5.4}Suffix Array}{11}{}%
 \contentsline {subsection}{\numberline {5.5}SAIS*}{11}{}%
@@ -42,15 +42,15 @@
 \contentsline {subsection}{\numberline {5.7}Smallest Rotation}{12}{}%
 \contentsline {subsection}{\numberline {5.8}De Bruijn sequence*}{12}{}%
 \contentsline {subsection}{\numberline {5.9}SAM}{12}{}%
-\contentsline {subsection}{\numberline {5.10}cyclicLCS}{12}{}%
+\contentsline {subsection}{\numberline {5.10}cyclicLCS}{13}{}%
 \contentsline {section}{\numberline {6}Math}{13}{}%
 \contentsline {subsection}{\numberline {6.1}ax+by=gcd*}{13}{}%
 \contentsline {subsection}{\numberline {6.2}floor and ceil}{13}{}%
 \contentsline {subsection}{\numberline {6.3}floor sum*}{13}{}%
 \contentsline {subsection}{\numberline {6.4}Miller Rabin*}{13}{}%
-\contentsline {subsection}{\numberline {6.5}Big number}{13}{}%
+\contentsline {subsection}{\numberline {6.5}Big number}{14}{}%
 \contentsline {subsection}{\numberline {6.6}Fraction}{14}{}%
-\contentsline {subsection}{\numberline {6.7}Simultaneous Equations}{14}{}%
+\contentsline {subsection}{\numberline {6.7}Simultaneous Equations}{15}{}%
 \contentsline {subsection}{\numberline {6.8}Pollard Rho}{15}{}%
 \contentsline {subsection}{\numberline {6.9}Simplex Algorithm}{15}{}%
 \contentsline {subsection}{\numberline {6.10}Schreier-Sims Algorithm*}{15}{}%
@@ -67,8 +67,8 @@
 \contentsline {subsection}{\numberline {7.2}Number Theory Transform}{17}{}%
 \contentsline {subsection}{\numberline {7.3}Fast Walsh Transform*}{17}{}%
 \contentsline {subsection}{\numberline {7.4}Polynomial Operation}{17}{}%
-\contentsline {section}{\numberline {8}Geometry}{18}{}%
-\contentsline {subsection}{\numberline {8.1}Default Code}{18}{}%
+\contentsline {section}{\numberline {8}Geometry}{19}{}%
+\contentsline {subsection}{\numberline {8.1}Default Code}{19}{}%
 \contentsline {subsection}{\numberline {8.2}Convex hull*}{19}{}%
 \contentsline {subsection}{\numberline {8.3}External bisector}{19}{}%
 \contentsline {subsection}{\numberline {8.4}Heart}{19}{}%
@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {8.9}Intersection of line and circle}{20}{}%
 \contentsline {subsection}{\numberline {8.10}point in circle}{20}{}%
 \contentsline {subsection}{\numberline {8.11}Half plane intersection}{20}{}%
-\contentsline {subsection}{\numberline {8.12}CircleCover*}{20}{}%
+\contentsline {subsection}{\numberline {8.12}CircleCover*}{21}{}%
 \contentsline {subsection}{\numberline {8.13}3Dpoint*}{21}{}%
 \contentsline {subsection}{\numberline {8.14}Convexhull3D*}{21}{}%
 \contentsline {subsection}{\numberline {8.15}DelaunayTriangulation*}{22}{}%

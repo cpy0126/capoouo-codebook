@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.27)  26 NOV 2021 13:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.27)  26 NOV 2021 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,8 +565,8 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(./1_Basic/Shell_script.cpp) (./1_Basic/Default_code.cpp) (./1_Basic/vimrc.cpp)
-(./1_Basic/read.cpp) (./1_Basic/black_magic.cpp
+(./1_Basic/Default_code.cpp) (./1_Basic/vimrc.cpp) (./1_Basic/read.cpp)
+(./1_Basic/black_magic.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -574,14 +574,15 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-]) (./2_Graph/BCC_Vertex.cpp) (./2_Graph/Bridge.cpp) (./2_Graph/2SAT.cpp
+]) (./2_Graph/BCC_Vertex.cpp) (./2_Graph/Bridge.cpp) (./2_Graph/2SAT.cpp)
+(./2_Graph/MinimumMeanCycle.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2]) (./2_Graph/MinimumMeanCycle.cpp) (./2_Graph/Virtual_Tree.cpp)
-(./2_Graph/Maximum_Clique_Dyn.cpp) (./2_Graph/MinimumSteinerTree.cpp
+[2]) (./2_Graph/Virtual_Tree.cpp) (./2_Graph/Maximum_Clique_Dyn.cpp)
+(./2_Graph/MinimumSteinerTree.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -603,14 +604,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [5] (./3_Data_Structure/Leftist_Tree.cpp)
 (./3_Data_Structure/Heavy_light_Decomposition.cpp)
-(./3_Data_Structure/Centroid_Decomposition.cpp)
+(./3_Data_Structure/Centroid_Decomposition.cpp) (./3_Data_Structure/Treap.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[6] (./3_Data_Structure/Treap.cpp) (./4_Flow_Matching/Kuhn_Munkres.cpp)
-(./4_Flow_Matching/MincostMaxflow.cpp
+[6]) (./4_Flow_Matching/Kuhn_Munkres.cpp) (./4_Flow_Matching/MincostMaxflow.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -625,51 +625,47 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [8]) (./4_Flow_Matching/BoundedFlow.cpp) (./4_Flow_Matching/Gomory_Hu_tree.cpp)
-(./5_String/KMP.cpp
+(./4_Flow_Matching/isap.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[9]) (./5_String/Z-value.cpp) (./5_String/Manacher.cpp)
-(./5_String/Suffix_Array.cpp) (./5_String/SAIS.cpp
+[9]) (./5_String/KMP.cpp) (./5_String/Z-value.cpp) (./5_String/Manacher.cpp)
+(./5_String/Suffix_Array.cpp)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[10]) (./5_String/Aho-Corasick_Automatan.cpp) (./5_String/Smallest_Rotation.cpp
-) (./5_String/De_Bruijn_sequence.cpp) (./5_String/SAM.cpp
+[10] (./5_String/SAIS.cpp) (./5_String/Aho-Corasick_Automatan.cpp)
+(./5_String/Smallest_Rotation.cpp) (./5_String/De_Bruijn_sequence.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[11]) (./5_String/PalTree.cpp) (./5_String/cyclicLCS.cpp)
-(./6_Math/ax+by=gcd.cpp)
+[11]) (./5_String/SAM.cpp) (./5_String/PalTree.cpp) (./5_String/cyclicLCS.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[12] (./6_Math/floor_ceil.cpp) (./6_Math/floor_sum.cpp)
-(./6_Math/Miller_Rabin.cpp) (./6_Math/Big_number.cpp
+[12]) (./6_Math/ax+by=gcd.cpp) (./6_Math/floor_ceil.cpp)
+(./6_Math/floor_sum.cpp) (./6_Math/Miller_Rabin.cpp) (./6_Math/Big_number.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[13]
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
 Missing character: There is no � (U+FFFD) in font Consolas Italic/OT:script=lat
 n;language=dflt;!
 Missing character: There is no � (U+FFFD) in font Consolas Italic/OT:script=lat
 n;language=dflt;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[13]) (./6_Math/Fraction.cpp) (./6_Math/Simultaneous_Equations.cpp)
+) (./6_Math/Fraction.cpp) (./6_Math/Simultaneous_Equations.cpp)
 (./6_Math/Pollard_Rho.cpp) (./6_Math/Simplex_Algorithm.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -677,100 +673,103 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [14]) (./6_Math/SchreierSims.cpp) (./6_Math/chineseRemainder.cpp)
-(./6_Math/QuadraticResidue.cpp) (./6_Math/PiCount.cpp
+(./6_Math/QuadraticResidue.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[15]) (./6_Math/Primes.cpp) (./6_Math/Theorem.tex)
-(./7_Polynomial/Fast_Fourier_Transform.cpp)
-(./7_Polynomial/Number_Theory_Transform.cpp
+[15]) (./6_Math/PiCount.cpp) (./6_Math/Primes.cpp) (./6_Math/Theorem.tex)
+(./7_Polynomial/Fast_Fourier_Transform.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[16]) (./7_Polynomial/Fast_Walsh_Transform.cpp)
+[16]) (./7_Polynomial/Number_Theory_Transform.cpp)
+(./7_Polynomial/Fast_Walsh_Transform.cpp)
 (./7_Polynomial/Polynomial_Operation.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[17]) (./8_Geometry/Default_code.cpp) (./8_Geometry/Convex_hull.cpp)
-(./8_Geometry/external_bisector.cpp) (./8_Geometry/Heart.cpp
+)
+(./8_Geometry/Default_code.cpp)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[18]) (./8_Geometry/Minimum_Circle_Cover.cpp)
+[18] (./8_Geometry/Convex_hull.cpp) (./8_Geometry/external_bisector.cpp)
+(./8_Geometry/Heart.cpp) (./8_Geometry/Minimum_Circle_Cover.cpp)
 (./8_Geometry/Polar_Angle_Sort.cpp)
 (./8_Geometry/Intersection_of_two_circles.cpp)
-(./8_Geometry/Intersection_of_polygon_and_circle.cpp)
-(./8_Geometry/Intersection_of_line_and_circle.cpp)
-(./8_Geometry/point_in_circle.cpp) (./8_Geometry/Half_plane_intersection.cpp
+(./8_Geometry/Intersection_of_polygon_and_circle.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[19]) (./8_Geometry/CircleCover.cpp) (./8_Geometry/3Dpoint.cpp)
-(./8_Geometry/Convexhull3D.cpp
+[19]) (./8_Geometry/Intersection_of_line_and_circle.cpp)
+(./8_Geometry/point_in_circle.cpp) (./8_Geometry/Half_plane_intersection.cpp)
+(./8_Geometry/CircleCover.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[20]
+[20]) (./8_Geometry/3Dpoint.cpp) (./8_Geometry/Convexhull3D.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./8_Geometry/DelaunayTriangulation.cpp
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./8_Geometry/Triangulation_Vonoroi.cpp)
-(./8_Geometry/Tangent_line_of_two_circles.cpp
+[21]) (./8_Geometry/DelaunayTriangulation.cpp)
+(./8_Geometry/Triangulation_Vonoroi.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[22]) (./8_Geometry/minMaxEnclosingRectangle.cpp)
+[22]) (./8_Geometry/Tangent_line_of_two_circles.cpp)
+(./8_Geometry/minMaxEnclosingRectangle.cpp)
 (./8_Geometry/minDistOfTwoConvex.cpp) (./8_Geometry/Minkowski_Sum.cpp)
-(./8_Geometry/rotatingSweepLine.cpp) (./8_Geometry/Simpson.cpp)
-(./9_Else/Mos_Alogrithm_With_modification.cpp
+(./8_Geometry/rotatingSweepLine.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[23]) (./9_Else/Mos_Alogrithm_On_Tree.cpp) (./9_Else/DynamicConvexTrick.cpp)
-(./9_Else/Matroid.tex))
+[23]) (./8_Geometry/Simpson.cpp) (./9_Else/Mos_Alogrithm_With_modification.cpp)
+(./9_Else/Mos_Alogrithm_On_Tree.cpp) (./9_Else/DynamicConvexTrick.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[24] (./codebook.aux) ) 
+[24]) (./9_Else/Matroid.tex))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[25
+
+] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 10931 strings out of 476493
- 226595 string characters out of 5820669
- 2118699 words of memory out of 5000000
- 30978 multiletter control sequences out of 15000+600000
+ 10945 strings out of 476493
+ 226743 string characters out of 5820669
+ 2104699 words of memory out of 5000000
+ 30992 multiletter control sequences out of 15000+600000
  408619 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,12n,81p,535b,1645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (24 pages).
+Output written on codebook.pdf (25 pages).

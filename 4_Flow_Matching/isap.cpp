@@ -49,4 +49,4 @@ struct Maxflow {
       ;
     return res;
   }
-} flow;
+};

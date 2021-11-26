@@ -8,7 +8,7 @@
   18446744073709551557
 */
 bool sieve[mxn];
-vector<int> prime
+vector<int> prime;
 void linear_sieve(){
   for(int i=2;i<mxn;++i){
   	if(!sieve[i]) prime.pb(i);

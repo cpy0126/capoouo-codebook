@@ -58,35 +58,36 @@
 \contentsline {subsection}{\numberline {6.12}QuadraticResidue}{16}{}%
 \contentsline {subsection}{\numberline {6.13}PiCount}{16}{}%
 \contentsline {subsection}{\numberline {6.14}Primes}{16}{}%
-\contentsline {subsection}{\numberline {6.15}Theorem}{17}{}%
-\contentsline {subsubsection}{\numberline {6.15.1}Kirchhoff's Theorem}{17}{}%
-\contentsline {subsubsection}{\numberline {6.15.2}Tutte's Matrix}{17}{}%
-\contentsline {subsubsection}{\numberline {6.15.3}Cayley's Formula}{17}{}%
+\contentsline {subsection}{\numberline {6.15}PrimeFactorization}{17}{}%
+\contentsline {subsection}{\numberline {6.16}Theorem}{17}{}%
+\contentsline {subsubsection}{\numberline {6.16.1}Kirchhoff's Theorem}{17}{}%
+\contentsline {subsubsection}{\numberline {6.16.2}Tutte's Matrix}{17}{}%
+\contentsline {subsubsection}{\numberline {6.16.3}Cayley's Formula}{17}{}%
 \contentsline {section}{\numberline {7}Polynomial}{17}{}%
 \contentsline {subsection}{\numberline {7.1}Fast Fourier Transform}{17}{}%
 \contentsline {subsection}{\numberline {7.2}Number Theory Transform}{17}{}%
 \contentsline {subsection}{\numberline {7.3}Fast Walsh Transform*}{17}{}%
-\contentsline {subsection}{\numberline {7.4}Polynomial Operation}{17}{}%
+\contentsline {subsection}{\numberline {7.4}Polynomial Operation}{18}{}%
 \contentsline {section}{\numberline {8}Geometry}{19}{}%
 \contentsline {subsection}{\numberline {8.1}Default Code}{19}{}%
 \contentsline {subsection}{\numberline {8.2}Convex hull*}{19}{}%
 \contentsline {subsection}{\numberline {8.3}External bisector}{19}{}%
 \contentsline {subsection}{\numberline {8.4}Heart}{19}{}%
 \contentsline {subsection}{\numberline {8.5}Minimum Circle Cover*}{19}{}%
-\contentsline {subsection}{\numberline {8.6}Polar Angle Sort*}{19}{}%
+\contentsline {subsection}{\numberline {8.6}Polar Angle Sort*}{20}{}%
 \contentsline {subsection}{\numberline {8.7}Intersection of two circles*}{20}{}%
 \contentsline {subsection}{\numberline {8.8}Intersection of polygon and circle}{20}{}%
 \contentsline {subsection}{\numberline {8.9}Intersection of line and circle}{20}{}%
 \contentsline {subsection}{\numberline {8.10}point in circle}{20}{}%
 \contentsline {subsection}{\numberline {8.11}Half plane intersection}{20}{}%
-\contentsline {subsection}{\numberline {8.12}CircleCover*}{20}{}%
+\contentsline {subsection}{\numberline {8.12}CircleCover*}{21}{}%
 \contentsline {subsection}{\numberline {8.13}3Dpoint*}{21}{}%
 \contentsline {subsection}{\numberline {8.14}Convexhull3D*}{21}{}%
 \contentsline {subsection}{\numberline {8.15}DelaunayTriangulation*}{22}{}%
 \contentsline {subsection}{\numberline {8.16}Triangulation Vonoroi*}{23}{}%
 \contentsline {subsection}{\numberline {8.17}Tangent line of two circles}{23}{}%
 \contentsline {subsection}{\numberline {8.18}minMaxEnclosingRectangle}{23}{}%
-\contentsline {subsection}{\numberline {8.19}minDistOfTwoConvex}{23}{}%
+\contentsline {subsection}{\numberline {8.19}minDistOfTwoConvex}{24}{}%
 \contentsline {subsection}{\numberline {8.20}Minkowski Sum*}{24}{}%
 \contentsline {subsection}{\numberline {8.21}RotatingSweepLine}{24}{}%
 \contentsline {subsection}{\numberline {8.22}Simpson}{24}{}%

@@ -1,11 +1,3 @@
-#include <algorithm>
-#include <iostream>
-using namespace std;
-typedef long long ll;
-
-const int MAXC = 200005;
-const ll INF = 1e18;
-
 struct node {
   ll sum;
   ll mx, mxcnt, smx;
@@ -46,9 +38,7 @@ struct node {
     return rt;
   }
 } seg[MAXC << 2];
-
 ll a[MAXC];
-
 void give_tag_min(int rt, ll t) {
   if (t >= seg[rt].mx) return;
   seg[rt].lazymin = t;
@@ -58,7 +48,6 @@ void give_tag_min(int rt, ll t) {
   if (seg[rt].mx == seg[rt].mi) seg[rt].mi = t;
   seg[rt].mx = t;
 }
-
 void give_tag_max(int rt, ll t) {
   if (t <= seg[rt].mi) return;
   seg[rt].lazymax = t;
@@ -67,7 +56,6 @@ void give_tag_max(int rt, ll t) {
   if (seg[rt].mi == seg[rt].mx) seg[rt].mx = t;
   seg[rt].mi = t;
 }
-
 void give_tag_add(int l, int r, int rt, ll t) {
   seg[rt].lazyadd += t;
   if (seg[rt].lazymax != -INF) seg[rt].lazymax += t;
@@ -78,7 +66,6 @@ void give_tag_add(int l, int r, int rt, ll t) {
   if (seg[rt].smi != INF) seg[rt].smi += t;
   seg[rt].sum += (ll)(r - l + 1) * t;
 }
-
 void tag_down(int l, int r, int rt) {
   if (seg[rt].lazyadd != 0) {
     int mid = (l + r) >> 1;
@@ -98,7 +85,6 @@ void tag_down(int l, int r, int rt) {
     seg[rt].lazymax = -INF;
   }
 }
-
 void build(int l, int r, int rt) {
   if (l == r) return seg[rt] = node(a[l]), void();
   int mid = (l + r) >> 1;
@@ -106,7 +92,6 @@ void build(int l, int r, int rt) {
   build(mid + 1, r, rt << 1 | 1);
   seg[rt] = seg[rt << 1] + seg[rt << 1 | 1];
 }
-
 void modifymax(
   int L, int R, int l, int r, int rt, ll t) {
   if (L <= l && R >= r && t < seg[rt].smi)
@@ -118,7 +103,6 @@ void modifymax(
     modifymax(L, R, mid + 1, r, rt << 1 | 1, t);
   seg[rt] = seg[rt << 1] + seg[rt << 1 | 1];
 }
-
 void modifymin(
   int L, int R, int l, int r, int rt, ll t) {
   if (L <= l && R >= r && t > seg[rt].smx)
@@ -130,7 +114,6 @@ void modifymin(
     modifymin(L, R, mid + 1, r, rt << 1 | 1, t);
   seg[rt] = seg[rt << 1] + seg[rt << 1 | 1];
 }
-
 void modifyadd(
   int L, int R, int l, int r, int rt, ll t) {
   if (L <= l && R >= r)
@@ -142,7 +125,6 @@ void modifyadd(
     modifyadd(L, R, mid + 1, r, rt << 1 | 1, t);
   seg[rt] = seg[rt << 1] + seg[rt << 1 | 1];
 }
-
 ll query(int L, int R, int l, int r, int rt) {
   if (L <= l && R >= r) return seg[rt].sum;
   if (l != r) tag_down(l, r, rt);
@@ -153,9 +135,7 @@ ll query(int L, int R, int l, int r, int rt) {
   return query(L, R, l, mid, rt << 1) +
     query(L, R, mid + 1, r, rt << 1 | 1);
 }
-
 int main() {
-  ios::sync_with_stdio(0), cin.tie(0);
   int n, m;
   cin >> n >> m;
   for (int i = 1; i <= n; ++i) cin >> a[i];

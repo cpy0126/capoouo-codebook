@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {6.2}floor and ceil}{13}{}%
 \contentsline {subsection}{\numberline {6.3}floor sum*}{13}{}%
 \contentsline {subsection}{\numberline {6.4}Miller Rabin*}{13}{}%
-\contentsline {subsection}{\numberline {6.5}Big number}{14}{}%
+\contentsline {subsection}{\numberline {6.5}Big number}{13}{}%
 \contentsline {subsection}{\numberline {6.6}Fraction}{14}{}%
 \contentsline {subsection}{\numberline {6.7}Simultaneous Equations}{15}{}%
 \contentsline {subsection}{\numberline {6.8}Pollard Rho}{15}{}%
@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {8.9}Intersection of line and circle}{20}{}%
 \contentsline {subsection}{\numberline {8.10}point in circle}{20}{}%
 \contentsline {subsection}{\numberline {8.11}Half plane intersection}{20}{}%
-\contentsline {subsection}{\numberline {8.12}CircleCover*}{21}{}%
+\contentsline {subsection}{\numberline {8.12}CircleCover*}{20}{}%
 \contentsline {subsection}{\numberline {8.13}3Dpoint*}{21}{}%
 \contentsline {subsection}{\numberline {8.14}Convexhull3D*}{21}{}%
 \contentsline {subsection}{\numberline {8.15}DelaunayTriangulation*}{22}{}%

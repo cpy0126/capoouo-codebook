@@ -1,8 +1,8 @@
 #pragma GCC (2)
 #include<bits/stdc++.h>
 using namespace std;
-#define x first
-#define y second
+#define f first
+#define s second
 #define sz(i) ((int)i.size())
 #define all(i) i.begin(),i.end()
 #define pb push_back

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.27)  28 AUG 2022 22:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.27)  29 SEP 2022 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,17 +541,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.69182pt too wide) detected at line 63
+Overfull \hbox (0.69182pt too wide) detected at line 64
 \TU/Consolas(0)/m/n/7 6.16.1 
  []
 
 
-Overfull \hbox (0.69182pt too wide) detected at line 64
+Overfull \hbox (0.69182pt too wide) detected at line 65
 \TU/Consolas(0)/m/n/7 6.16.2 
  []
 
 
-Overfull \hbox (0.69182pt too wide) detected at line 65
+Overfull \hbox (0.69182pt too wide) detected at line 66
 \TU/Consolas(0)/m/n/7 6.16.3 
  []
 
@@ -565,7 +565,7 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(./1_Basic/Default_code.cpp) (./1_Basic/vimrc.cpp) (./1_Basic/read.cpp)
+(./1_Basic/env.cpp) (./1_Basic/Default_code.cpp) (./1_Basic/read.cpp)
 (./1_Basic/black_magic.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -636,9 +636,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [9]) (./4_Flow_Matching/SW-mincut.cpp) (./4_Flow_Matching/BoundedFlow.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -779,10 +776,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [25] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 10985 strings out of 476493
- 227647 string characters out of 5820669
- 2094699 words of memory out of 5000000
- 31029 multiletter control sequences out of 15000+600000
+ 11001 strings out of 476493
+ 227797 string characters out of 5820669
+ 2090699 words of memory out of 5000000
+ 31045 multiletter control sequences out of 15000+600000
  408619 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,12n,81p,535b,1645s stack positions out of 5000i,500n,10000p,200000b,80000s

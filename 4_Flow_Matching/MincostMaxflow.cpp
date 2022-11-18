@@ -4,12 +4,12 @@ struct MCMF { // 0-base
   } * past[MAXN];
   vector<edge> G[MAXN];
   bitset<MAXN> inq;
-  ll dis[MAXN], up[MAXN], s, t, mx, n;
+  ll dis[MAXN], up[MAXN], s, t, n;
   bool BellmanFord(ll &flow, ll &cost) {
     fill(dis, dis + n, INF);
     queue<ll> q;
     q.push(s), inq.reset(), inq[s] = 1;
-    up[s] = mx - flow, past[s] = 0, dis[s] = 0;
+    up[s] = INF, past[s] = 0, dis[s] = 0;
     while (!q.empty()) {
       ll u = q.front();
       q.pop(), inq[u] = 0;
@@ -37,8 +37,8 @@ struct MCMF { // 0-base
       ;
     return flow;
   }
-  void init(ll _n, ll _mx) {
-    n = _n, mx = _mx;
+  void init(ll _n) {
+    n = _n;
     for (int i = 0; i < n; ++i) G[i].clear();
   }
   void add_edge(ll a, ll b, ll cap, ll cost) {

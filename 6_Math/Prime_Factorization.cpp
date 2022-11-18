@@ -6,7 +6,7 @@ vector<pll> f(ll x){
       for(; x % i == 0; x /= i, a++);
       factors.pb(make_pair(i, a));
     }
-    if(x > 1) factors.push_back(make_pair(x, 1));
+  if(x > 1) factors.pb(make_pair(x, 1));
   return factors;
 }
 
